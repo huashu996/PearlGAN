@@ -1,0 +1,2 @@
+测试结果--将图片放入FLIR_testsets中的test0或者test1可分别实现由红外图像到可见光图像的相互转化，结果在res_FLIR文件夹下的images文件夹下，可以通过改变--loadSize实现转化图片分辨率的改变。
+python test.py --phase test --serial_test --name FLIR_NTIR2DC --dataroot ./FLIR_testsets/ --n_domains 2 --which_epoch 80 --results_dir ./res_FLIR/ --loadSize int --no_flip --net_Gen_type gen_v1 --gpu_ids 0
